@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name        = 'gmaps_ws'
+  s.name        = 'gmaps_api'
   s.version     = '0.1.0'
   s.date        = '2012-06-06'
   s.summary     = "Google Maps Webservice"
