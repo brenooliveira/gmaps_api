@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = "A ruby implementation for calling google maps webservices"
   s.authors     = ["Rodrigo Saito"]
   s.email       = 'rodrigo.saito@gmail.com'
-  s.files       = ["lib/gmaps_api.rb"]
+  s.files       = `git ls-files`.split($\)
   s.homepage    = 'http://rubygems.org/'
   s.add_dependency 'httparty', '0.8.3'
 end

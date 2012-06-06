@@ -4,7 +4,7 @@ module GMaps
       def address(address)
         resp = HTTParty.get "http://maps.googleapis.com/maps/api/geocode/json?address=#{url_encode(address)}&sensor=false"
 
-        results = JSON.parse(resp)['results']
+        results = JSON.parse(resp.body)['results']
 
         addresses = []
 

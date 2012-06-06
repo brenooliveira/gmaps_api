@@ -1,6 +1,6 @@
 require 'rspec'
 require 'fakeweb'
-require 'gmaps_ws'
+require 'gmaps_api'
 
 require_relative 'responses/geocode'
 
